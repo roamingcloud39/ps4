@@ -1,0 +1,7 @@
+var,name
+price,The price of the contract (in cents per kWh ) whenever the supplier offers a contract with a fixed rate
+len,"The length of contract that the supplier offered, expressed in years"
+local,Whether the supplier is a local company
+wk,Whether the supplier is a well-known company
+TOD,Whether the supplier offers a time-of-day rate instead of a fixed rate
+season,Whether the supplier offers a seasonal rate instead of a fixed rate

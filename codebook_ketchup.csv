@@ -1,0 +1,32 @@
+﻿Var,Name
+hhold_id,Household identification number
+brand (0-5),"0=no purchase, 1=Heinz, 2=Hunt’s, 3=Del Monte, 4=Store Brand, 5=Other"
+i _obs,index for observations for the household
+m_obs,the maximum number of observations for corresponding hhold id
+hhold_income,"Household income (1 - 11): 1=less than $5,000, 2=$5,000-9,999, 3=$10,000-14,999, 4=$15,000-19,999, 5=$20,000-24,999, 6=$25,000-29,999, 7=$30,000-34,999, 8=$35,000-39,999, 9=$40,000-44,999, 10=$45,000-49,999, 11=$50,000-59,999, 12=$60,000-74,999, 13=$75,000-$99,999, 14=$100,000 or more"
+hhold_members,Number of members in a household
+hhold_male_educ,"Male head education (1 - 11): 1=did not attend school, 2=some grade school, 3=graduate grade school, 4=some high school, 5=graduated high school, 6=some trade or business school, 7=graduated trade or business school, 8=some college, 9=graduated college, 10=attended graduate school, 11=post-graduate degree"
+hhold_female_educ,"Female head education (1 - 11), as above"
+erim_market,"(1 or 2): 1 Sioux Falls, 2 Springfield"
+Store ID,Store identification number
+n_wk,the week that the household went to a store
+ind_ft,"(0 or 1): 0 = none of the brand is feature in the flyer, 1 = at least one brand is feature in the flyer"
+ind_dp,"(0 or 1): 0 = none of the brand is on display, 1 = at least one brand is on display"
+Coupon_val,($) - Total value of coupon used (store coupons + manufacturer coupons)
+Coupon_av,(the average of coupon value by brand and week)
+P1,Price of brand 1 (for 32 oz)
+P2,Price of brand 2 (for 32 oz)
+P3,Price of brand 3 (for 32 oz)
+P4,Price of brand 4 (for 32 oz)
+ft1,feature dummy for brand 1
+ft2,feature dummy for brand 2
+ft3,feature dummy for brand 3
+ft4,feature dummy for brand 4
+dp1,display dummy for brand 1
+dp2,display dummy for brand 2
+dp3,display dummy for brand 3
+dp4,display dummy for brand 4
+cp_av1,coupon availability for brand 1
+cp_av2,coupon availability for brand 2
+cp_av3,coupon availability for brand 3
+cp_av4,coupon availability for brand 4
